@@ -11,7 +11,7 @@ i.e.: docker run --name screenshot -p 3000:3000 -i -t screenshot:latest /bin/bas
 
 3a. you can add optional jpeg or png at the end: 'node node.js https://google.com jpeg'
 
-4. run localhost:3000 on the host machine - give a few second just incase the process is slow
-(i.e. reddit takes a long time to save and upload since a full page is requested"
+4. run localhost:3000 on the host machine - give a few second just in case the process is slow
+(i.e. reddit takes a long time to save and upload since a full page is requested)
 
 5. this process can be used as is or be tweaked for other utility purposes stemming from puppeteer module
