@@ -1,0 +1,10 @@
+node_modules
+.settings/*
+*.swp
+.jshintrc
+.project
+.sublime-project
+.tern-project
+*.png
+*.jpg
+
