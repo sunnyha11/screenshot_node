@@ -17,6 +17,10 @@ if (arg.length == 3) { //without format - default png
 	return console.log('arg length must be two or three. try again.');
 }
 
+if (!String(url).includes('http://') && !String(url).includes('https://')) {
+	return console.log('Must indicate \'http://\' or \'https://\'')
+}
+
 //verify that format works and if jpeg, change 'jpeg' to 'jpg'
 if (format == 'jpeg') {
 	var ender = '.jpg';	
